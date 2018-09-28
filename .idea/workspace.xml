@@ -2,428 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123fcff1-a4b1-48bd-84eb-686ea5ba7025" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/all_icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/all_icons_min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/fontello-codes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/icon_set_1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/icon_set_2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/css/icon_set_3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/demo_icon_set_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/demo_icon_set_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/demo_icon_set_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/ElegantIcons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/ElegantIcons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/ElegantIcons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/ElegantIcons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/fontello.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/fontello.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/fontello.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/fontello.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/icon_set_1.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/icon_set_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/icon_set_1.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/icon_fonts/font/icon_set_1.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/magnific-popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/shortcode-demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/yellow.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/skins/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/about_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/apple-touch-icon-114x114-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/apple-touch-icon-144x144-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/apple-touch-icon-57x57-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/apple-touch-icon-72x72-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/arrow_down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/avatar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/avatar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/avatar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/demo_img_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/demo_img_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/demo_img_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/demo_img_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/large_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/large_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/large_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/large_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/large_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/thumb_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/thumb_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/thumb_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/thumb_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/gallery/thumb_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icon_about_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icon_about_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icon_about_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/icon_about_4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo_2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/map-marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/quote_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/services_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/shortcodes_bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/upload_icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/common_scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/common_scripts_min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/file-validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/functions_no_side_panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/functions_with_branch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/functions_with_upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-ui-1.8.22.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.magnific-popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.wizard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/mapmarker.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/mapmarker_func.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/shortcode-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/slider_func.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/smtp/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/smtp/functions_no_side_panel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/smtp/functions_with_branch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/smtp/functions_with_upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/css/layerslider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/css/layerslider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/js/greensock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/js/layerslider.kreaturamedia.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/js/layerslider.transitions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/gradient-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/gradient-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/gradient-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/gradient-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/gradient-circle-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/grid_hard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/grid_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/grid_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/grid_stripes_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/overlays/grid_stripes_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/debug/layerslider.debug.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/debug/layerslider.debug.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/origami/layerslider.origami.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/origami/layerslider.origami.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/timeline/layerslider.timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/plugins/timeline/layerslider.timeline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlessdark3d/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/borderlesslight3d/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/carousel/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/carousel/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/carousel/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/carousel/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/carousel/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/darkskin/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/darkskin/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/darkskin/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/darkskin/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/darkskin/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/defaultskin/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/defaultskin/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/defaultskin/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/defaultskin/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/defaultskin/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidth/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidth/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidth/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidth/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidth/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidthdark/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidthdark/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidthdark/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidthdark/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/fullwidthdark/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/glass/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/lightskin/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/lightskin/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/lightskin/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/lightskin/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/lightskin/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/minimal/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/minimal/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/minimal/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/minimal/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/minimal/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/noskin/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/noskin/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/noskin/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/noskin/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/noskin/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/numbers/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/numbers/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/numbers/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/outline/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/outline/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/outline/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/roundedflat/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/roundedflat/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/roundedflat/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v5/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v5/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v5/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v5/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v5/skin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v6/info.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v6/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v6/nothumb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/layerslider/skins/v6/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/media/demo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/media/demo.ogv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/media/demo.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/smtp/quote_send.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/smtp/quote_send_upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/smtp/quote_send_with_branch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/fonts/throw/ThrowMyHandsUpintheAir.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/bbactive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/bgdocs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/california-rental-application-form.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/hero-alldocs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/hero-bottom-cta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/hero-contact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/hero-plans.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/legal-doc-no-extra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/legal-doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/preview-document.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/related-doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/sample-hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/shopper-approved-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/shopper-approved.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step1b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step1bmini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step2mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step3-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step3b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/step3bmini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/steps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/doc-search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/doc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/doc2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/grey-page.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/magnifier-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/magnifier.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/orange-page.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-11bbd54f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-273f169a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-50b4dc11.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-629166c9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-923f030b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-c10a673f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-d9801acf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/svg-verified-pages-dark-bg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/svg/test.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/t1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/throw/ThrowMyHandsUpintheAir.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/bbactive.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/bgdocs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/california-rental-application-form.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero-alldocs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero-bottom-cta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero-contact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero-plans.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/legal-doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/preview-document.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/related-doc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/sample-hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/shopper-approved-blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/shopper-approved.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step1b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step1bmini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step2mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step3-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step3b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/step3bmini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/steps.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/doc-search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/doc.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/doc2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/grey-page.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/magnifier-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/magnifier.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/orange-page.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-11bbd54f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-273f169a.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-50b4dc11.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-629166c9.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-923f030b.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-c10a673f.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/svg/sprite.css-d9801acf.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/t1.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -440,8 +20,17 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/site/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/site/partials/header.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -494,6 +83,7 @@
         <option value="$PROJECT_DIR$/config/services.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/template/html/quote_send_with_branch.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/site/layouts/app.blade.php" />
       </list>
     </option>
@@ -644,6 +234,14 @@
               <item name="quoter" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="quoter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quoter" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -691,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538150472458</updated>
-      <workItem from="1538150473686" duration="6401000" />
+      <workItem from="1538150473686" duration="6816000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6401000" />
+    <option name="totallyTimeSpent" value="6816000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1340" extended-state="0" />
@@ -875,10 +473,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/layouts/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/partials/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -11,25 +11,25 @@
     
     <!-- Favicons-->
     <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{asset('img/apple-touch-icon-57x57-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{{asset('img/apple-touch-icon-72x72-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{{asset('img/apple-touch-icon-114x114-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{{asset('img/apple-touch-icon-144x144-precomposed.png')}}">
     
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
     
     <!-- BASE CSS -->
-    <link href="layerslider/css/layerslider.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
-    <link href="css/magnific-popup.min.css" rel="stylesheet">
-    <link href="css/skins/square/yellow.css" rel="stylesheet">
+    <link href="{{asset('layerslider/css/layerslider.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/icon_fonts/css/all_icons_min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/magnific-popup.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/skins/square/yellow.css')}}" rel="stylesheet">
     
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
 
 </head>
 
@@ -39,20 +39,7 @@
     <div data-loader="circle-side-2"></div>
 </div><!-- /Loader_form -->
 
-<header>
-    <div id="logo_home">
-        <h1><a href="index.html" title="Quote">Quote - Request a quote for every type of companies</a></h1>
-    </div>
-    
-    <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);"><span>Menu mobile</span></a>
-    <nav class="main_nav">
-        <ul class="nav nav-tabs">
-            <li><a href="#tab_1" data-toggle="tab">Request a quote</a></li>
-            <li><a href="#tab_2" data-toggle="tab">About</a></li>
-            <li><a href="#tab_3" data-toggle="tab">Contact</a></li>
-        </ul>
-    </nav>
-</header><!-- /header -->
+@include('partials.header')
 
 <div id="layerslider" class="fullsize" style="width:1200px;height:100vh;">
     <!-- First slide -->
