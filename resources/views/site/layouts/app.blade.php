@@ -10,26 +10,26 @@
     <title>QUOTE - Request a quote for every type of companies</title>
     
     <!-- Favicons-->
-    <link rel="shortcut icon" href="{{asset('img/favicon.ico')}}" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="{{asset('img/apple-touch-icon-57x57-precomposed.png')}}">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{{asset('img/apple-touch-icon-72x72-precomposed.png')}}">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{{asset('img/apple-touch-icon-114x114-precomposed.png')}}">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{{asset('img/apple-touch-icon-144x144-precomposed.png')}}">
+    <link rel="shortcut icon" href="{{asset('assets/img/favicon.ico')}}" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{{asset('assets/img/apple-touch-icon-57x57-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{{asset('assets/img/apple-touch-icon-72x72-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{{asset('assets/img/apple-touch-icon-114x114-precomposed.png')}}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{{asset('assets/img/apple-touch-icon-144x144-precomposed.png')}}">
     
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
     
     <!-- BASE CSS -->
-    <link href="{{asset('layerslider/css/layerslider.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/style.css')}}" rel="stylesheet">
-    <link href="{{asset('css/icon_fonts/css/all_icons_min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/magnific-popup.min.css')}}" rel="stylesheet">
-    <link href="{{asset('css/skins/square/yellow.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/layerslider/css/layerslider.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/icon_fonts/css/all_icons_min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/magnific-popup.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/skins/square/yellow.css')}}" rel="stylesheet">
     
     <!-- YOUR CUSTOM CSS -->
-    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
 
 </head>
 
@@ -39,26 +39,26 @@
     <div data-loader="circle-side-2"></div>
 </div><!-- /Loader_form -->
 
-@include('partials.header')
+@include('site.partials.header')
 
 <div id="layerslider" class="fullsize" style="width:1200px;height:100vh;">
     <!-- First slide -->
     <div class="ls-slide"  data-ls="duration: 8000; transition2d: 5;bgsize:cover;bgposition:50% 50%;kenburnszoom:in;">
-        <img src="img/slides/slide_1.jpg" class="ls-bg" alt="Slide background">
+        <img src="{{asset('assets/img/slides/slide_1.jpg')}}" class="ls-bg" alt="Slide background">
         <p style="font-size:72px; color:#fff;top:46%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:800;offsetxout:-100;durationout:1000;"><strong>QUOTATIONS</strong></p>
         <p style="font-size:52px; color:#fff;top:55%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;">for every type of companies</p>
     </div>
     
     <!-- Second slide -->
     <div class="ls-slide"  data-ls="duration: 8000; transition2d: 5;bgsize:cover;bgposition:50% 50%;kenburnszoom:in;">
-        <img src="img/slides/slide_2.jpg" class="ls-bg" alt="Slide background">
+        <img src="{{asset('assets/img/slides/slide_2.jpg')}}" class="ls-bg" alt="Slide background">
         <p style="font-size:72px; color:#fff;top:46%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:800;offsetxout:-100;durationout:1000;"><strong>HOOK</strong></p>
         <p style="font-size:52px; color:#fff;top:55%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;">new customers and contacts</p>
     </div>
     
     <!-- Third slide -->
     <div class="ls-slide"  data-ls="duration: 8000; transition2d: 5;bgsize:cover;bgposition:50% 50%;kenburnszoom:in;">
-        <img src="img/slides/slide_3.jpg" class="ls-bg" alt="Slide background">
+        <img src="{{asset('assets/img/slides/slide_3.jpg')}}" class="ls-bg" alt="Slide background">
         <p style="font-size:72px; color:#fff;top:46%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:800;offsetxout:-100;durationout:1000;"><strong>USE FOR SURVEY</strong></p>
         <p style="font-size:52px; color:#fff;top:55%; left:0px;line-height:1;text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60); padding-left:50px; letter-spacing:-1px;" class="ls-l sliderleft" data-ls="offsetxin:-100;durationin:2000;delayin:1500;offsetxout:-100;durationout:1000;">ask questions to your customers</p>
     </div>
@@ -350,7 +350,7 @@
                                             </div>
                                             <div class="testimonial-author">
                                                 <div class="img-thumbnail img-thumbnail-small">
-                                                    <img src="img/avatar1.jpg" alt="">
+                                                    <img src="{{asset('assets/img/avatar1.jpg')}}" alt="">
                                                 </div>
                                                 <p>
                                                     <strong>Mark Smith</strong><span>October 2016</span>
@@ -367,7 +367,7 @@
                                             </div>
                                             <div class="testimonial-author">
                                                 <div class="img-thumbnail img-thumbnail-small">
-                                                    <img src="img/avatar2.jpg" alt="">
+                                                    <img src="{{asset('assets/img/avatar2.jpg')}}" alt="">
                                                 </div>
                                                 <p>
                                                     <strong>Mark Smith</strong><span>September 2016</span>
@@ -384,7 +384,7 @@
                                             </div>
                                             <div class="testimonial-author">
                                                 <div class="img-thumbnail img-thumbnail-small">
-                                                    <img src="img/avatar3.jpg" alt="">
+                                                    <img src="{{asset('assets/img/avatar3.jpg" alt=""')}}>
                                                 </div>
                                                 <p>
                                                     <strong>Mark Smith</strong><span>July 2016</span>
@@ -397,28 +397,28 @@
                                     <h4>gallery</h4>
                                     <ul class="magnific-gallery">
                                         <li>
-                                            <a href="img/gallery/large_1.jpg" title="image title">
-                                                <figure><img src="img/gallery/thumb_1.jpg" alt="thumb"></figure>
+                                            <a href="{{asset('assets/img/gallery/large_1.jpg')}}" title="image title">
+                                                <figure><img src="{{asset('assets/img/gallery/thumb_1.jpg')}}" alt="thumb"></figure>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="img/gallery//large_2.jpg" title="image title">
-                                                <figure><img src="img/gallery/thumb_2.jpg" alt="thumb"></figure>
+                                            <a href="{{asset('assets/img/gallery//large_2.jp')}}g" title="image title">
+                                                <figure><img src="{{asset('assets/img/gallery/thumb_2.jpg')}}" alt="thumb"></figure>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="img/gallery/large_3.jpg" title="image title">
-                                                <figure><img src="img/gallery/thumb_3.jpg" alt="thumb"></figure>
+                                            <a href="{{asset('assets/img/gallery/large_3.jpg')}}" title="image title">
+                                                <figure><img src="{{asset('assets/img/gallery/thumb_3.jpg')}}" alt="thumb"></figure>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="img/gallery/large_4.jpg" title="image title">
-                                                <figure><img src="img/gallery/thumb_2.jpg" alt="thumb"></figure>
+                                            <a href="{{asset('assets/img/gallery/large_4.jpg')}}" title="image title">
+                                                <figure><img src="{{asset('assets/img/gallery/thumb_2.jpg')}}" alt="thumb"></figure>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="img/gallery/large_5.jpg" title="image title">
-                                                <figure><img src="img/gallery/thumb_3.jpg" alt="thumb"></figure>
+                                            <a href="{{asset('assets/img/gallery/large_5.jpg')}}" title="image title">
+                                                <figure><img src="{{asset('assets/img/gallery/thumb_3.jpg')}}" alt="thumb"></figure>
                                             </a>
                                         </li>
                                     </ul>
@@ -529,20 +529,20 @@
 
 <!-- SCRIPTS -->
 <!-- Jquery-->
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="{{asset('assets/js/jquery-3.2.1.min.js')}}"></script>
 <!-- Layer slider -->
-<script src="layerslider/js/greensock.js"></script>
-<script src="layerslider/js/layerslider.transitions.js"></script>
-<script src="layerslider/js/layerslider.kreaturamedia.jquery.js"></script>
-<script src="js/slider_func.js"></script>
+<script src="{{asset('assets/layerslider/js/greensock.js')}}"></script>
+<script src="{{asset('assets/layerslider/js/layerslider.transitions.js')}}"></script>
+<script src="{{asset('assets/layerslider/js/layerslider.kreaturamedia.jquery.js')}}"></script>
+<script src="{{asset('assets/js/slider_func.js')}}"></script>
 <!-- Common script -->
-<script src="js/common_scripts_min.js"></script>
+<script src="{{asset('assets/js/common_scripts_min.js')}}"></script>
 <!-- Theme script -->
-<script src="js/functions.js"></script>
+<script src="{{asset('assets/js/functions.js')}}"></script>
 <!-- Google map -->
 <script src="http://maps.googleapis.com/maps/api/js"></script>
-<script src="js/mapmarker.jquery.js"></script>
-<script src="js/mapmarker_func.jquery.js"></script>
+<script src="{{asset('assets/js/mapmarker.jquery.js')}}"></script>
+<script src="{{asset('assets/js/mapmarker_func.jquery.js')}}"></script>
 
 </body>
 
