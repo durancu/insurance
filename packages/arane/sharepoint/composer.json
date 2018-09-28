@@ -1,0 +1,57 @@
+{
+  "name": "arane/sharepoint",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Sharepoint Service",
+  "keywords": [
+    "sharepoint",
+    "service"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Donelkys Santana - Liuver Duran",
+      "email": "donelkyss@gmail.com - liuver@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.7",
+    "php": "^7.1.3",
+    "arane/log": "~0.0.1",
+    "arane/notification": "~0.0.1",
+    "arane/file": "~0.0.1"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Arane\\Sharepoint\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+    "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Arane\\Sharepoint\\Providers\\SharepointServiceProvider",
+        "Arane\\Sharepoint\\Providers\\EventServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "preferred-install": "dist",
+  "minimum-stability": "dev",
+  "prefer-stable": true
+
+}

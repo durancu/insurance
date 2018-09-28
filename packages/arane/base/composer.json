@@ -1,0 +1,74 @@
+{
+  "name": "arane/base",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Base System Installation Package",
+  "keywords": [
+    "base",
+    "service"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Liuver Duran | Donelkys Santana",
+      "email": "liuver@gmail.com | donelkyss@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.7",
+    "php": "^7.1.3",
+    "arane/log": "~0.0.1",
+    "arane/notification": "~0.0.1",
+    "arane/email": "~0.0.1"
+  },
+  "require-dev": {
+    "laracasts/generators": "dev-master as 1.1.4",
+    "league/factory-muffin": "^3.0@dev",
+    "league/factory-muffin-faker": "^2.0",
+    "barryvdh/laravel-ide-helper": "^2.3@dev",
+    "phpspec/phpspec": "~2.1",
+    "symfony/css-selector": "~3.0",
+    "symfony/dom-crawler": "~3.0",
+    "xethron/migrations-generator": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Arane\\Base\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Arane\\Base\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+    "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+    "post-update-cmd": [
+      "php artisan vendor:publish --provider=\"Arane\\Base\\Providers\\BaseServiceProvider\"",
+      "php artisan vendor:publish --provider=\"Arane\\Base\\Providers\\AuthServiceProvider\"",
+      "php artisan vendor:publish --provider=\"Arane\\Base\\Providers\\EventServiceProvider\"",
+      "php artisan ide-helper:generate",
+      "php artisan ide-helper:meta"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Arane\\Base\\Providers\\BaseServiceProvider",
+        "Arane\\Base\\Providers\\AuthServiceProvider",
+        "Arane\\Base\\Providers\\EventServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

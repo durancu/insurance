@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="/usr/local/bin/vendor/psr/log" />
+      <path value="/usr/local/bin/vendor/nesbot/carbon" />
+      <path value="/usr/local/bin/vendor/cyrrill/migrations-generator" />
+      <path value="/usr/local/bin/vendor/cyrrill/generators" />
+      <path value="/usr/local/bin/vendor/symfony/console" />
+      <path value="/usr/local/bin/vendor/symfony/debug" />
+      <path value="/usr/local/bin/vendor/symfony/event-dispatcher" />
+      <path value="/usr/local/bin/vendor/symfony/translation" />
+      <path value="/usr/local/bin/vendor/symfony/polyfill-mbstring" />
+      <path value="/usr/local/bin/vendor/symfony/http-kernel" />
+      <path value="/usr/local/bin/vendor/symfony/class-loader" />
+      <path value="/usr/local/bin/vendor/symfony/http-foundation" />
+      <path value="/usr/local/bin/vendor/symfony/finder" />
+      <path value="/usr/local/bin/vendor/barryvdh/reflection-docblock" />
+      <path value="/usr/local/bin/vendor/barryvdh/laravel-ide-helper" />
+      <path value="/usr/local/bin/vendor/barryvdh/laravel-stack-middleware" />
+      <path value="/usr/local/bin/vendor/doctrine/cache" />
+      <path value="/usr/local/bin/vendor/doctrine/common" />
+      <path value="/usr/local/bin/vendor/doctrine/collections" />
+      <path value="/usr/local/bin/vendor/doctrine/dbal" />
+      <path value="/usr/local/bin/vendor/doctrine/annotations" />
+      <path value="/usr/local/bin/vendor/doctrine/inflector" />
+      <path value="/usr/local/bin/vendor/doctrine/lexer" />
+      <path value="/usr/local/bin/vendor/paragonie/random_compat" />
+      <path value="/usr/local/bin/vendor/illuminate/console" />
+      <path value="/usr/local/bin/vendor/illuminate/contracts" />
+      <path value="/usr/local/bin/vendor/illuminate/support" />
+      <path value="/usr/local/bin/vendor/illuminate/filesystem" />
+      <path value="/usr/local/bin/vendor/composer" />
+    </include_path>
+  </component>
+</project>

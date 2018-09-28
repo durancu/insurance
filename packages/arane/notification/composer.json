@@ -1,0 +1,61 @@
+{
+  "name": "arane/notification",
+  "type": "library",
+  "version": "0.0.1",
+  "description": "Notification: Send fast SMS, email and toast (database) notifications through channels integrated to AWS SNS service",
+  "keywords": [
+    "notification",
+    "service"
+  ],
+  "homepage": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Liuver Duran - Donelkys Santana",
+      "email": "liuver@gmail.com | donelkyss@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "illuminate/support": "~5.7",
+    "php": "^7.1.3",
+    "arane/base": "~0.0.1",
+    "arane/log": "~0.0.1",
+    "lab123/aws-sns": "*",
+    "guzzlehttp/guzzle": "^6.2@dev"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Arane\\Notification\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Arane\\Notification\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests",
+    "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src tests"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Arane\\Notification\\Providers\\NotificationServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
