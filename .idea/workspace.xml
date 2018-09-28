@@ -2,612 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123fcff1-a4b1-48bd-84eb-686ea5ba7025" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/quoter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckUserPermission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckUserRole.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/PremiumSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Subscribed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BaseFormRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/SendContactRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Notifications/ContactMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Notifications/ContactMessageResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Nova/Resource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Nova/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Nova/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/NovaServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Support/Arrays.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Validators/Recaptcha.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/arane-email.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/arane-file.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/arane-notification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/arane-sharepoint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/aws-sns.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/base.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/chatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/debugbar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/excel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/flysystem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/genealabs-laravel-caffeine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/generators.config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/geoip.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hooks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ide-helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/javascript.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/laravel-translation-manager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/nova.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/purifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/snappy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/themes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/toastr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/translatable.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2010_10_06_001010_create_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2010_10_12_172147_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_05_05_221108_create_table_admin_menu_items.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_07_08_055219_create_cache_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2018_08_15_060255_create_tag_tables.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2014_04_02_193005_create_ltm_translations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2015_03_19_124805_add_src_reference_column_to_translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2015_03_21_163127_add_original_column_to_ltr_translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2015_07_17_172305_add_deleted_flag_to_translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2015_09_23_220523_add_was_used_flag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2015_09_27_221759_add_group_index_to_translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_01_01_000000_add_voyager_user_fields.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_01_01_000000_create_data_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_01_01_000000_create_pages_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_01_01_000000_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_04_11_00352701_create_user_locales_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_05_18_124805_change_src_reference_column_in_translations.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_07_29_171118_create_chatter_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_07_29_171118_create_chatter_discussion_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_07_29_171118_create_chatter_post_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_07_29_171128_create_foreign_keys.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_08_02_183143_add_slug_field_for_discussions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_08_03_121747_add_color_row_to_chatter_discussions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_10_21_190000_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_10_21_190000_create_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_11_30_135954_create_permission_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_11_30_141208_create_permission_role_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2016_12_26_201236_data_types__add__server_side.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_14_005015_create_translations_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_15_000000_add_permission_group_id_to_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_15_000000_create_permission_groups_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_15_000000_make_table_name_nullable_in_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_16_121747_add_markdown_and_lock_to_chatter_posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_01_16_121747_create_chatter_user_discussion_pivot_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_03_06_000000_add_controller_to_data_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_04_11_000000_alter_post_nullable_fields_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_04_21_000000_add_order_to_data_rows_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_email_list_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_email_templates_email_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_email_templates_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_email_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_logs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_notifications_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_06_19_161508_create_user_notification_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_07_05_210000_add_policyname_to_data_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2017_08_05_000000_add_group_to_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/obsolete/2018_05_09_035804_add_column_description_to_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Config/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/ModelCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/ModelDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/ModelEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/ModelRestored.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/ModelUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/UserCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/UserLoggedIn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Events/UserRegisteredEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Lang/en/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Listeners/ModelSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2010_10_06_000010_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2010_10_06_000030_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2016_01_01_000000_add_role_id_to_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2016_10_21_190000_create_roles_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2016_11_30_135954_create_permissions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2016_11_30_141208_create_permission_role_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_03_10_183337_create_system_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_03_10_183337_create_user_settings_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_03_20_161811_create_sessions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_06_22_130426_create_zip_codes_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_06_25_161075_add_states_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_07_21_044203_create_countries_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Migrations/2018_09_15_112839_add_timestamps_columns_to_permission_role_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/Country.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/MenuItem.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/Permission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/Role.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/State.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/SystemSetting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/UserSetting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/ZipCode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Policies/RolePolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Policies/UserPolicy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Traits/ModelTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Traits/PassportToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Models/Traits/SlugTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Notifications/UserRegisteredNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Providers/BaseServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/Auth/SocialController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/BaseAPIController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/PermissionsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/PublicController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/RolesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/AuthService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/BaseModelService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/CountryService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/PermissionService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/RoleService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/StateService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/SystemService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Handlers/UserService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/CountryCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/CountryUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/ListOptionsRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/ModelBulkDeleteRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/ModelBulkRestoreRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/ModelBulkUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/PermissionCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/PermissionUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/PublicCountriesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/PublicStatesRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/RoleCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/RoleUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/SearchRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/TokenRefreshRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserLoginRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserRegisterRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserSettingCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserSettingUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Requests/UserUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Rules/Mobile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Transformers/SocialUserTransformer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/Services/Validators/CustomValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/base/src/SkeletonClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Config/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/Email/EmailSent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailList/EmailListCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailList/EmailListDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailList/EmailListRestored.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailList/EmailListUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailType/EmailTypeCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailType/EmailTypeDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailType/EmailTypeRestored.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Events/EmailType/EmailTypeUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Jobs/SendEmail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Lang/en/events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Lang/en/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Listeners/EmailListSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Listeners/EmailSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Listeners/EmailTypeSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Migrations/2017_06_19_161508_create_email_list_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Migrations/2017_06_19_161508_create_email_templates_email_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Migrations/2017_06_19_161508_create_email_templates_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Migrations/2017_06_19_161508_create_email_types_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Entities/EmailList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Entities/EmailTemplate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Entities/EmailType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Traits/EmailListInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Traits/EmailTemplateInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Models/Traits/EmailTypeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Providers/EmailServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Controllers/EmailListsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Controllers/EmailTemplatesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Controllers/EmailTypesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Controllers/EmailsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Handlers/EmailBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Handlers/EmailListService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Handlers/EmailService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Handlers/EmailTemplateService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Handlers/EmailTypeService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailContactSendRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailListCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailListUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailSendRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailTemplateCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailTemplateUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailTypeCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailTypeUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Services/Requests/EmailUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/SkeletonClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/email/src/Views/system-notification.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Config/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileCopied.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileMoved.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileRestored.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Events/FileUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Lang/en/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Listeners/FileSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Migrations/2017_06_19_161508_create_files_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Models/Entities/File.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Providers/FileServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Controllers/FilesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Handlers/FileService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Requests/FileCopyRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Requests/FileCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Requests/FileMoveRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Requests/FileRestoreRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Requests/FileUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/file/src/Services/Validators/FileValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Migrations/2017_06_19_161508_create_logs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Models/Entities/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Providers/LogServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Services/Controllers/LogsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/Services/Handlers/LogService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/log/src/SkeletonClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Config/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Migrations/2017_06_19_161508_create_notifications_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Migrations/2017_06_19_161508_create_user_notification_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Migrations/2018_03_09_043635_create_notification_subscriptions_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Migrations/2018_03_09_050858_create_notification_channels_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Models/Entities/Notification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Models/Entities/NotificationChannel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Models/Entities/NotificationSubscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Providers/NotificationServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Controllers/NotificationChannelsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Controllers/NotificationSubscriptionsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Handlers/NotificationChannelService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Handlers/NotificationService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Handlers/NotificationSubscriptionService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Notifications/EmailNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Notifications/SMSNotification.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Requests/NotificationChannelCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Requests/NotificationChannelUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Requests/NotificationSubscriptionCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Services/Requests/NotificationSubscriptionUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/SkeletonClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/notification/src/Views/email-notification.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Config/default.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointCopied.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointCreated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointDeleted.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointMoved.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointRestored.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointShared.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointUnshared.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Events/SharepointUpdated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Lang/en/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Listeners/SharepointSubscriber.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Migrations/2018_02_25_161508_create_sharepoints_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Migrations/2018_02_25_161550_create_sharepoint_permission_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Models/Entities/Sharepoint.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Models/Entities/SharepointPermission.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Providers/SharepointServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Controllers/SharepointsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Handlers/SharepointService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointCopyRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointCreateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointListRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointMoveRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointRestoreRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointShareRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointUnShareRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Requests/SharepointUpdateRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/Services/Validators/SharepointValidator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/arane/sharepoint/src/SkeletonClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prefill.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/throw/ThrowMyHandsUpintheAir.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bbactive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bgdocs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/california-rental-application-form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero-alldocs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero-bottom-cta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero-contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero-plans.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/legal-doc-no-extra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/legal-doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/preview-document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/related-doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/sample-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/shopper-approved-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/shopper-approved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step1b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step1bmini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step2mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step3-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step3b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/step3bmini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/steps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/doc-search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/doc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/doc2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/grey-page.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/magnifier-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/magnifier.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/orange-page.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-11bbd54f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-273f169a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-50b4dc11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-629166c9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-923f030b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-c10a673f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/sprite.css-d9801acf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/svg-verified-pages-dark-bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/svg/test.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/t1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/images/navbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/.compare.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/images/navbar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/energize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/imagesloaded.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/jquery.highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/jquery.tocify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/jquery_ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/lib/lunr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/_icon_font.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/_monokai.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/_normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/_variables.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/assets/stylus/style.styl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/includes/_errors.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/source/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/throw/ThrowMyHandsUpintheAir.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bbactive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bgdocs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/california-rental-application-form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hero-alldocs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hero-bottom-cta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hero-contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hero-plans.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/legal-doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/preview-document.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/related-doc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/sample-hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/shopper-approved-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/shopper-approved.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step1b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step1bmini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step2mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step3-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step3b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/step3bmini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/steps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/doc-search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/doc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/doc2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/grey-page.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/magnifier-white.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/magnifier.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/orange-page.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-11bbd54f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-273f169a.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-50b4dc11.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-629166c9.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-923f030b.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-c10a673f.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/svg/sprite.css-d9801acf.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/t1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/nova-assets/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/nova-assets/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/nova-assets/manifest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/nova-assets/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/nova-assets/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/events.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -624,8 +19,17 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="662">
+              <caret line="78" column="54" lean-forward="true" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/services.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -639,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
@@ -719,10 +123,11 @@
       <find>DocumentOrder</find>
       <find>DocumentService</find>
       <find>Guide</find>
-      <find>cache</find>
       <find>360lf-e</find>
       <find>360lf</find>
       <find>360lega</find>
+      <find>cache</find>
+      <find>mailgun</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/storage</dir>
@@ -739,10 +144,11 @@
         <option value="$PROJECT_DIR$/packages/arane/base/src/Models/Entities/User.php" />
         <option value="$PROJECT_DIR$/config/base.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/queue.php" />
         <option value="$PROJECT_DIR$/config/arane-email.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/config/services.php" />
       </list>
     </option>
   </component>
@@ -898,12 +304,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538150472458</updated>
-      <workItem from="1538150473686" duration="4343000" />
+      <workItem from="1538150473686" duration="4648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4343000" />
+    <option name="totallyTimeSpent" value="4648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1340" extended-state="0" />
@@ -914,9 +320,9 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.41421762" weight="0.16972111" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.32605243" visible="true" weight="0.37540984" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.32605243" visible="true" weight="0.37540984" />
       <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8007663" visible="true" weight="0.15329626" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8007663" visible="true" weight="0.15329626" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.32962668" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.40349483" weight="0.39043826" />
@@ -987,23 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#40#85#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/queue.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1022,6 +411,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="222" column="61" lean-forward="true" selection-start-line="222" selection-start-column="61" selection-end-line="222" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="78" column="54" lean-forward="true" selection-start-line="78" selection-start-column="54" selection-end-line="78" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="62" selection-start-line="69" selection-start-column="62" selection-end-line="69" selection-end-column="62" />
         </state>
       </provider>
     </entry>

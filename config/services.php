@@ -15,8 +15,8 @@ return [
     */
 
     'mailgun' => [
-        'domain' => env('MAILGUN_DOMAIN', 'mailservice.swyftfilings.net'),
-        'secret' => env('MAILGUN_SECRET', 'ba8ac77eec4ab63c65144ba01dd471b8-770f03c4-c695f682'),
+        'domain' => env('MAILGUN_DOMAIN', ''),
+        'secret' => env('MAILGUN_SECRET', ''),
     ],
 
     'ses' => [
@@ -38,9 +38,9 @@ return [
     'braintree' => [
         'model'  => \Arane\Base\Models\Entities\User::class,
         'environment' => env('BRAINTREE_ENV','sandbox'),
-        'merchant_id' => env('BRAINTREE_MERCHANT_ID', '6q9bzqw5hsmkxc3q'),
-        'public_key' => env('BRAINTREE_PUBLIC_KEY', 'hmxtsjznn9gy6zjz'),
-        'private_key' => env('BRAINTREE_PRIVATE_KEY', 'c03fb075ed56224dec488377ee4c3663'),
+        'merchant_id' => env('BRAINTREE_MERCHANT_ID', ''),
+        'public_key' => env('BRAINTREE_PUBLIC_KEY', ''),
+        'private_key' => env('BRAINTREE_PRIVATE_KEY', ''),
     ],
     
     'okta' => [
@@ -66,8 +66,8 @@ return [
         'client_id'     => env('GOOGLE_ID', null),
         'client_secret' => env('GOOGLE_SECRET', null),
         'redirect'      => env('GOOGLE_REDIRECT', env('APP_URL') . '/social/providers/handle/google'),
-        'recaptcha_key' => env('GOOGLE_RECAPTCHA_KEY', '6Lcp0nEUAAAAALm81dP9leSqZr1t-OiiSsAC9ayv'),
-        'recaptcha_secret' => env('GOOGLE_RECAPTCHA_SECRET', '6Lcp0nEUAAAAADlaG8OWtN0-xpnZVjFuG4IXjJd_')
+        'recaptcha_key' => env('GOOGLE_RECAPTCHA_KEY', ''),
+        'recaptcha_secret' => env('GOOGLE_RECAPTCHA_SECRET', '')
     ],
     
     'github' => [
