@@ -1,6 +1,6 @@
 <header>
     <div id="logo_home">
-        <h1><a href="index.html" title="Quote">Quote - Request a quote for every type of companies</a></h1>
+        <h1><a href="{{route('home')}}" title="Quote">Best Insurance Quoting</a></h1>
     </div>
     
     <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx" href="javascript:void(0);"><span>Menu mobile</span></a>

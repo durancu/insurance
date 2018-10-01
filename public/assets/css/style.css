@@ -547,7 +547,7 @@ footer ul li:first-child {
 .box_feat h3 {
     text-transform: uppercase;
     font-size: 18px;
-    color: #f5ab35;
+    color: #337bc5;
 }
 .box_feat#icon_1 {
     background: #fff url(../img/icon_about_1.svg) no-repeat center 40px;
@@ -625,6 +625,10 @@ footer ul li:first-child {
 .subheader#services {
     background: #fff4e3 url(../img/services_bg.svg) no-repeat center bottom;
 }
+.subheader#auto {
+    background: #f0f0f0 url(../img/headers/auto.jpg) no-repeat center bottom;
+}
+
 .subheader h3 {
     font-size: 32px;
 }
@@ -803,14 +807,14 @@ button.submit.circle:before {
 .ui-widget textarea,
 .ui-widget button {}
 .ui-widget-content {
-    background: #ffcc7b;
+    background: #d6d6d6;
     color: #222222;
 }
 .ui-widget-content a {
     color: #222222;
 }
 .ui-widget-header {
-    background: #f5ab35;
+    background: #337bc5;
 }
 .ui-widget-header a {
     color: #222222;
@@ -890,8 +894,8 @@ span.error:after {
 .form-group.checkbox_questions .icheckbox_square-yellow {
     margin-right: 10px;
 }
-.form-group.radio_questions label:hover {
-    border: 2px solid #ffcc33;
+.form-group.radiowww_questions label:hover {
+    border: 2px solid #337bc5;
 }
 .form-group.select {
     margin-bottom: 30px;
@@ -962,7 +966,7 @@ textarea.form-control {
 input.form-control:focus,
 select.form-control:focus,
 textarea.form-control:focus {
-    border-color: #ffcc33;
+    border-color: #337bc5;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -1677,7 +1681,7 @@ blockquote.styled .small:before, blockquote.styled small:before {
 /*============================================================================================*/
 @media (max-width: 1024px) {
 	video {display:none;}
-	.video_fallback{background: url(../img/slides/slide_1.jpg) center center no-repeat; background-size:cover;display:block; position:fixed;top: 0;right: 0;bottom: 0;left: 0;overflow: hidden;}
+	.video_fallback{background: url(../img/slides/slide_3.jpg) center center no-repeat; background-size:cover;display:block; position:fixed;top: 0;right: 0;bottom: 0;left: 0;overflow: hidden;}
 }
 @media (max-width: 991px) {
 	#main_container {width:100%;}
